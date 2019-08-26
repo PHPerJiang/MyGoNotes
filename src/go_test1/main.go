@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"go_test1/mystruct"
 )
 
 
@@ -15,7 +14,7 @@ func main()  {
 	//slice.ShowSlice1(slice.SliceAppend());
 	//fmt.Println(len(slice.SliceAppend()))
 	//mymap.ShowMap(mymap.CreateMap2())
-	mystruct.ShowStruct(mystruct.CreateStruct())
+	//mystruct.ShowStruct(mystruct.CreateStruct())
 }
 
 
