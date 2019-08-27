@@ -20,9 +20,9 @@ func (u *User)Notify()  {
 	fmt.Printf("Send user email to %s<%s>\n",u.Name,u.Email)
 }
 
-//func (a *Admin)Notify()  {
-//	fmt.Printf("Send user email to %s<%s>\n,and this user level is %d\n",a.User.Name,a.User.Email,a.Level)
-//}
+func (a *Admin)Notify()  {
+	fmt.Printf("Send amdin email to %s<%s>\n",a.Name,a.Email)
+}
 
 func SendNotifier(n Notifier)  {
 	n.Notify()

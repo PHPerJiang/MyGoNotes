@@ -1,8 +1,6 @@
 package main
 
-import (
-	"go_test2/embedding"
-)
+import "go_test2/embedding"
 
 func main() {
 	//buffer.GetStdout()
@@ -27,4 +25,7 @@ func main() {
 		Level:1,
 	}
 	embedding.SendNotifier(&ad)
+
+	ad.Notify()   //admin内部的user没有被提升
+	ad.User.Notify()   //admin内部的user被提升
 }
