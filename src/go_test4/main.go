@@ -1,7 +1,5 @@
 package main
 
-import "go_test4/myjson"
-
 func main() {
 	//my_log.Log_test()
 	//将json解析到结构体中
@@ -12,5 +10,5 @@ func main() {
 
 	//将map转换为json格式
 	//myjson.Map2Json()
-	myjson.Map2JSON1()
+	//myjson.Map2JSON1()
 }
